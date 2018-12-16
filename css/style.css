@@ -1,0 +1,221 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/* CSS Document */
+
+body {
+    max-width: 600px;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+#one {
+    color: black;
+    /* font-family: 'Open Sans', sans-serif; */
+    background-image: linear-gradient(to bottom right, #EB272F, #D1232A);
+    text-shadow: none !important;
+}
+
+.h2.text-center {
+    font-size: 1.7em;
+    margin-top: 10%;
+    color: black;
+    /* font-family: 'Open Sans', sans-serif; */
+    text-shadow: none !important;
+}
+
+.border-danger {
+    border-color: #D1232A!important;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #D1232A;
+    margin: 1em 0;
+    padding: 0;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    text-align: center;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+    text-align: center;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+    text-align: center;
+}
+
+.ui-header.ui-bar-inherit {
+    border: none;
+    background: transparent !important;
+}
+
+.ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset {
+    border: none !important;
+    border-bottom: 2px solid white !important;
+    background: none !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.ui-btn.ui-input-btn.ui-corner-all.ui-shadow {
+    color: black !important;
+    background-image: none !important;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important;
+    border-color: none !important;
+    text-shadow: none !important;
+}
+
+a.ui-btn-left.ui-btn.ui-shadow.ui-corner-all {
+    background: none !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    color: #D1232A;
+}
+
+
+/* Google map */
+
+.googlemap {
+    height: 74vh;
+}
+
+
+/* Intro text */
+
+.intro-text {
+    font-size: 0.7em;
+}
+
+
+/* menu: */
+
+.glyphicon.glyphicon-align-justify {
+    font-size: 4vh;
+    color: #D1232A;
+}
+
+.glyphicon.glyphicon-map-marker {
+    color: #D1232A;
+    font-size: 4vh;
+}
+
+.glyphicon.glyphicon-option-horizontal {
+    font-size: 4vh;
+    color: #D1232A;
+}
+
+.glyphicon.glyphicon-info-sign {
+    font-size: 4vh;
+    color: #D1232A;
+}
+
+.card-body {
+    margin: 0;
+    padding: 0;
+}
+
+.card-img-top {
+    width: 20vh;
+    float: left;
+}
+
+.card-img-top-info {
+    width: 100%;
+    float: left;
+    margin-bottom: 2vh;
+}
+
+div.border {
+    height: 13vh;
+}
+
+.h2.text-center {
+    font-size: 4vh;
+}
+
+h4 {
+    font-size: 0.7em;
+}
+
+.h6 {
+    font-size: 0.8em;
+}
+
+.card-text-two {
+    font-size: 0.7em;
+}
+
+.card-text-two-tour {
+    font-size: 2.5vh;
+}
+
+.card {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important;
+}
+
+.take-me {
+    width: 80%!important;
+    margin: 5vh auto!important;
+    background-image: none !important;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important;
+    border-color: none !important;
+    text-shadow: none !important;
+}
+
+a.ui-link {
+    color: black;
+}
+
+@media only screen and (max-width: 736px) {
+    /* For mobile phones: */
+    /* Front page: */
+    .img-fluid {
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23) !important;
+    }
+    .fixed-bottom {
+        font-size: 2vh;
+    }
+    /* distinations list page: */
+    #two {
+        color: black;
+        /* font-family: 'Open Sans', sans-serif; */
+        background-image: linear-gradient(to bottom right, #F6F6F6, #F6F6F6);
+        text-shadow: none !important;
+    }
+    .glyphicon.glyphicon-chevron-left {
+        color: rgb(107, 106, 106);
+        font-size: 2vh;
+    }
+    .jumbotron {
+        background: transparent;
+        height: 30px;
+        color: black;
+        /* font-family: 'Open Sans', sans-serif; */
+    }
+    .ui-content.ui-body-a {
+        background: transparent;
+    }
+    .card {
+        /* font-family: 'Open Sans', sans-serif; */
+        border: none;
+        color: black;
+        text-shadow: none !important;
+    }
+}
